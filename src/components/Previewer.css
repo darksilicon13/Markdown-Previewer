@@ -1,0 +1,46 @@
+.previewer-window {
+    max-width: 800px;
+    min-height: 300px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 0;
+    box-shadow: 1px 1px 5px black;
+    background-color: white;
+}
+
+.window-title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
+pre, code {
+    background-color: #333;
+    color: white;
+}
+pre {
+    padding: 10px;
+}
+
+#preview {
+    word-wrap: break-word;  /*makes the text go to the next line if exceeds parent's width*/
+    padding: 10px;
+}
+
+#preview img{
+    display: block;
+    width: 80%;
+    margin: 50px auto;
+}
+
+#preview table {
+    border-collapse: collapse;
+}
+
+#preview table th, td {
+    border: 2px solid black;
+}

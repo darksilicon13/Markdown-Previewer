@@ -1,0 +1,34 @@
+.editor-window {
+    max-width: 600px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 0;
+    box-shadow: 1px 1px 5px black;
+}
+
+.window-title-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, blue 50%, #333);
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+}
+
+#editor {
+    margin-bottom: -4px;
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+button {
+    background-color: transparent;
+    border: none;
+    font-size: larger;
+    color: white;
+}
+button:hover {
+    color: yellow;
+}
